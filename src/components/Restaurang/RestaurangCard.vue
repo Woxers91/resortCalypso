@@ -4,10 +4,9 @@
             <h4>{{ product.name}}</h4>
             <h5>Tidsbokning: {{ product.tid}}</h5>
             <p>Bordsnummer:{{ product.bordsnummer}}</p>
-          
           <button class="view-product-button"  @click="$emit('view-product', product )" >View</button>
     </div>
-        {{product}}
+
 </template>
 
 <script>

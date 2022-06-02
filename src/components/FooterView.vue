@@ -1,7 +1,7 @@
 <template>
 
 <div id="scroll-container">
-  <div id="scroll-text">{{random}} | {{random2}} | {{random3}}</div>
+  <div id="scroll-text">{{text1}} | {{text2}} | {{text3}}</div>
 </div>
 
 
@@ -49,13 +49,13 @@ export default {
     test(){
     return this.$store.getters.sakTest + 18 
     },
-    random(){
+    text1(){
     return "Höstmarknad i den lilla byn under den lilla kullen under det lilla berget."
     },
-    random2(){
+    text2(){
     return "Vinprovning klockan 19.00."
     },
-    random3(){
+    text3(){
     return " Djuphavsdykning vid solnedgång imorgon kl 15.00."
     }
 }

@@ -1,3 +1,4 @@
+<!-- Tofix: inkastad komponent -->
 <template>
 <div>
   <div>
