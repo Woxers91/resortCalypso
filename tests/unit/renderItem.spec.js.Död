@@ -1,0 +1,10 @@
+import { mount } from '@vue/test-utils'
+import CartView from '@/views/CartView'
+
+test('Renders a product', () => {
+    const wrapper = mount(CartView)
+
+    const product = wrapper.get('[id="renderitemTest"]')
+
+    expect(product.name()).toBe('')
+}) 
